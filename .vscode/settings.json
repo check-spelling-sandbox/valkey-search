@@ -1,7 +1,5 @@
 {
     "C_Cpp.default.compileCommands": "compile_commands.json",
-    "terminal.integrated.defaultProfile.linux": "bash",
-    "terminal.integrated.defaultProfile.osx": "bash",
     "clangd.path": "/usr/bin/clangd",
     "C_Cpp.codeAnalysis.runAutomatically": true,
     "editor.formatOnSave": true,
@@ -17,5 +15,6 @@
         "--query-driver=**"
     ],
     "clangd.inactiveRegions.useBackgroundHighlight": true,
-    "clangd.enableCodeCompletion": true
+    "clangd.enableCodeCompletion": true,
+    "sarif-viewer.connectToGithubCodeScanning": "on"
 }
